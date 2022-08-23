@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab3</title>
+    <script src="lab3.js"></script>
+</head>
+<body>
+    
+        <form action="/mypage" method="post" name="regForm" >
+            <div id="un">
+            User Name<br>
+            <input type="text" name="username" id="Uname"><br>
+            </div>
+            <div id="emailID">
+            Email ID<br>
+            <input type="email" name="email" id="mail"><br>
+            </div>
+            <div id="pswd">
+            Password<br>
+            <input type="password" name="password" id="pass"><br>
+            </div>
+            <div id="cnfpswd">
+            Confirm Password<br>
+            <input type="password" name="Confirm Password" id="conf"><br>
+            </div>
+            <div id="address">
+            Address<br>
+            <textarea name="Address" id="add" cols="50" rows="5"></textarea>
+            <br>
+            <input type="button" value="Submit" onclick="submitform()">
+            </div>
+        </form>
+    
+</body>
+</html>

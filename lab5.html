@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body style="text-align: center;">
+
+
+    <h1>Enter Credentials</h1>
+    <div>
+        <form action="#" method="post">
+            <center>
+                <table cellspacing="3">
+                    
+                    <tr>
+                        <td>User Name: </td>
+                        <td align="right"><input type="text" name="Uname" required placeholder="Enter username" autofocus pattern="\d{5}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Password: </td>
+                        <td align="right"><input type="password" name="pass" required placeholder="Enter Password" /></td>
+                    </tr>
+                    <tr>
+                        <td> Email ID: </td>
+                        <td align="right"><input type="email" name="email" /></td>
+                    </tr>
+                    <tr>
+                        <td>Date </td>
+                        <td><input type="date" name="date" id="dob" min="2022-08-03" max="2022-08-20"></td>
+                    </tr>
+                    <tr>
+                        <td> Time</td>
+                        <td><input type="time" name="time" id="time"></td>
+                    </tr>
+                    <tr>
+                        <td>Number of People</td>
+                        <td><input type="number" name="num" id="nop" min="1"></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="right"><input type="checkbox" name="get" /></td>
+                        <td>Get Newsletters</td>
+                    </tr>
+                    <tr>
+                        <td align="right"><input type="checkbox" name="get" /></td>
+                        <td>Get Mails</td>
+                    </tr>
+                    <tr>
+                        <td align="right"><input type="checkbox" name="get" id="subs"></td>
+                        <td>Get Subscription Notification</td>
+                    </tr>             
+                </table>
+            
+                <h3> Subscription type: </h3>
+             
+            <table>
+                <tr>
+                    <td><input type="radio" name="subsType" id="Premium"></td>
+                    <td> Premium </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="subsType" id="Regular"></td>
+                    <td> Regular </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="subsType" id="Monthly"></td>
+                    <td> Monthly </td>
+                </tr>
+            </table>
+            </center>
+            <br>
+            <input type="submit" value="Login"> &nbsp;&nbsp;
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>

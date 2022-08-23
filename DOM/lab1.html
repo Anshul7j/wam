@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="lab1.css" type="text/css" /> 
+    <script src="lab1.js"></script>
+
+</head>
+<body>
+    <form action="mypage" method="post" name="loginform" onsubmit="return submitForm()">
+        Enter User Name: <br>
+        <input type="text" name="username" id="uname" />
+        <br/>
+        Enter email ID: <br>
+        <input type="email" name="mail" id="em" />
+        <br>
+        <input type="submit" value="Submit">
+        <input type="button" value="reset" onclick="Clearall()">
+    </form>
+   <!--
+    <button onclick="addForm()">
+        Click to Enter Details
+    </button>
+   --> 
+    <div id="errormessage"></div>
+</body>
+</html>
